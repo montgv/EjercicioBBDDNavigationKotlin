@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.ModificaFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtModificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="60dp"
+            android:text="@string/txt_modificacion"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edTxtDniModificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="80dp"
+            android:ems="10"
+            android:hint="@string/ed_txt_dni"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edTxtNombreModificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="80dp"
+            android:ems="10"
+            android:hint="@string/ed_txt_nombre"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edTxtApellidosModificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="80dp"
+            android:ems="10"
+            android:hint="@string/ed_txt_apellidos"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinnnerSexoModificacion"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btCancelarModificacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:text="@string/bt_cancelar" />
+
+            <Button
+                android:id="@+id/btAceptarModificacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/bt_aceptar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/inicioFragment">
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.ejerciciobbddnavigationkotlin.fragmentos.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/matriculaAlumnoFragment"
+        android:name="com.example.ejerciciobbddnavigationkotlin.fragmentos.MatriculaAlumnoFragment"
+        android:label="fragment_matricula_alumno"
+        tools:layout="@layout/fragment_matricula_alumno" />
+    <fragment
+        android:id="@+id/modificaFragment"
+        android:name="com.example.ejerciciobbddnavigationkotlin.fragmentos.ModificaFragment"
+        android:label="fragment_modifica"
+        tools:layout="@layout/fragment_modifica" />
+    <fragment
+        android:id="@+id/borrarFragment"
+        android:name="com.example.ejerciciobbddnavigationkotlin.fragmentos.BorrarFragment"
+        android:label="fragment_borrar"
+        tools:layout="@layout/fragment_borrar" />
+    <fragment
+        android:id="@+id/listarFragment"
+        android:name="com.example.ejerciciobbddnavigationkotlin.fragmentos.ListarFragment"
+        android:label="fragment_listar"
+        tools:layout="@layout/fragment_listar" />
+</navigation>

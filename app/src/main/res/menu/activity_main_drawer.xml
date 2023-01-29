@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_incio"
+            android:icon="@drawable/school_24dp"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_matricular"
+            android:icon="@drawable/icon_aniadir_24dp"
+            android:title="@string/menu_matricular" />
+        <item
+            android:id="@+id/nav_modifica"
+            android:icon="@drawable/icon_modificar_24dp"
+            android:title="@string/menu_modificar" />
+        <item
+            android:id="@+id/nav_borrar"
+            android:icon="@drawable/icon_modificar_24dp"
+            android:title="@string/menu_borrar" />
+    </group>
+
+    <item android:title="@string/menu_listados">
+        <menu>
+            <item
+                android:id="@+id/nav_listar"
+                android:icon="@drawable/icon_listar_24dp"
+                android:title="@string/menu_listar" />
+        </menu>
+    </item>
+</menu>

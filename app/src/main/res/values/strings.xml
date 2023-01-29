@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EjercicioBBDDNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">IES Oretania</string>
+    <string name="nav_header_subtitle">Ejercicio BBDD Navigation</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">Inicio</string>
+    <string name="menu_matricular">Matricular Alumno</string>
+    <string name="menu_modificar">Modificar Alumno</string>
+    <string name="menu_borrar">Borrar Alumno</string>
+    <string name="menu_listar">Listar Alumno</string>
+    <string name="menu_listados">Listados</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_bienvenida">
+        "Bienvenidos a la APP\n"
+        "de nuestro centro educativo"
+    </string>
+    <string name="txt_matricula">MATRÍCULA DE UN NUEVO ALUMNO</string>
+    <string name="txt_modificacion">MODIFICACIÓN DEL ALUMNO</string>
+    <string name="txt_borrado">BORRADO DE UN ALUMNO</string>
+    <string name="ed_txt_dni">Introduce el DNI</string>
+    <string name="ed_txt_nombre">Introduce el Nombre</string>
+    <string name="ed_txt_apellidos">Introduce los Apellidos</string>
+    <string name="bt_cancelar">CANCELAR</string>
+    <string name="bt_aceptar">ACEPTAR</string>
+
+    <string-array name="spinnerSexo">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+</resources>

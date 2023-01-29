@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.MatriculaAlumnoFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/txt_matricula"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edTxtDniMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="70dp"
+            android:ems="10"
+            android:hint="@string/ed_txt_dni"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edTxtNombreMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="70dp"
+            android:ems="10"
+            android:hint="@string/ed_txt_nombre"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edTxtApellidosMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="70dp"
+            android:ems="10"
+            android:hint="@string/ed_txt_apellidos"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <Spinner
+            android:id="@+id/spinnnerSexoMatricula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btCancelarMatricula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90dp"
+                android:text="@string/bt_cancelar" />
+
+            <Button
+                android:id="@+id/btAceptarMatricula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/bt_aceptar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
